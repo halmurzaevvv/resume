@@ -2,10 +2,26 @@
   .nav-container {
     display: none;
   }
+  .social_items {
+    padding: 2px;
+    width: 5%;
+  }
+  .navbar__list {
+    font-size: 30px;
+    font-weight: normal;
+  }
 }
 @media all and (max-width: 1440px) {
   .nav-container {
     display: none;
+  }
+  .social_items {
+    padding: 2px;
+    width: 5%;
+  }
+  .navbar__list {
+    font-size: 20px;
+    font-weight: normal;
   }
   .skills {
     width: 60%;
@@ -29,6 +45,10 @@
   }
   .navbar__list {
     font-size: 16px;
+  }
+  .social_items {
+    padding: 3px;
+    width: 10%;
   }
 }
 
